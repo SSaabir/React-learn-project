@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import { Header } from './componets/Header'
+import { Footer } from './componets/Footer'
 
 export const App = () => {
   return (
-    <div>App</div>
+ <div>
+    <Header/>
+    <Footer/>
+    </div>
   )
 }
