@@ -1,13 +1,9 @@
-import { Student } from "./Student";
+import { UserGreeeting } from "./UserGreeeting";
 
  function App() {
   return (
  <>
-    <Student name="hecrim" age={30} isStudent={true} />
-    <Student name="jeremy" age={24} isStudent={false} />
-    <Student name="aztec" age={34} isStudent={true} />
-    <Student name="nimblenumble" age={67} isStudent={false} />
-    <Student />
+   <UserGreeeting isLoggedIn = {false} username = "adam" />   
  </>
   )
 }
