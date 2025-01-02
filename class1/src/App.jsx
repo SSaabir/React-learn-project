@@ -7,7 +7,7 @@ import List from "./List";
       {id:103, name:"pine", calories: 37}];
       
       const vegitables = [
-         {id:105, name:"carrot", calories: 295},
+         {id:105, nme:"carrot", calories: 295},
          {id:106, name: "celery", calories: 514}, 
          {id:107, name:"leaks", calories: 373}];
          
