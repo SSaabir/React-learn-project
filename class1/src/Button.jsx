@@ -1,16 +1,8 @@
 export const Button = () => {
-  const styles = {
-    backgroundColor : "blue",
-    color : "white",
-    padding : "10px 20px",
-    borderRadius : "5px",
-    border : "none",
-    cursor : "pointer",
-  }
-
+ 
+  const handleClick = (e) => e.target.textContent = "OUCH!!!";
+  //const handleClick2 = (name) => console.log(`${name} DONT!`);
   return (
-    <button style={styles}>
-        Click Me
-    </button>
+ <button onClick={(e) => handleClick(e)}>Click Me</button>
   )
 }
