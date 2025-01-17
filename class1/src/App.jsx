@@ -1,10 +1,10 @@
-import MyComponent from "./MyComponent";
+import Updater from "./Updater";
 
  function App() {
    
    return (
       <>
-        <MyComponent/>     
+        <Updater/>   
       </>
   )
 }
