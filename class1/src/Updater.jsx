@@ -7,7 +7,9 @@ export default function Updater() {
     function IncreaseCount (){
         setCount(c => c+100000000000000000000000000000000000000000000000);
         setCount(c => c+10000000000000000000000000000000000000000000);
+
         setCount(c => c+19999999999999999999999999999999999999999);
+        setCount(c => c+1999999999999999999999999999999999999999);
     }
 
     function DecreaseCount (){
