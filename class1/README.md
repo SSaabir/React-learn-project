@@ -69,5 +69,3 @@ This project isn’t clean, it isn’t scalable, and it certainly isn’t optimi
 But hey — it exists. And sometimes that’s enough.
 
 Peace out ✌️
-
-```
